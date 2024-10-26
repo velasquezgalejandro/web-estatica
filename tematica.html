@@ -3,37 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>web-static-tematica</title>
+    <!-- fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
-      <div class="logo">Mi Sitio</div>
+      <div class="nombre">GamerHub</div>
       <button class="toggle-button" id="toggle-button">☰</button>
       <nav id="nav-menu" class="nav-menu">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="adicional.html">Temática</a></li>
-          <li><a href="tematica.html">Adicional</a></li>
+          <li><a href="adicional.html">Ultimas novedades</a></li>
+          <li><a href="tematica.html">Recomendado del mes</a></li>
         </ul>
       </nav>
     </header>
+    <!-- inicio de seccion -->
     <main>
-      <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Contenido de inicio aquí.</p>
-      </section>
       <section id="tematica">
-        <h2>Temática</h2>
-        <p>Contenido temático aquí.</p>
-      </section>
-      <section id="adicional">
-        <h2>Adicional</h2>
-        <p>Contenido adicional aquí.</p>
+        <!-- contenido de tematica -->
+        <div class="recomendado-blog-container">
+          <p class="center titulo-recomendado">
+            Metaphor: ReFantazio - Un Viaje Surrealista a través de la Fantasía
+            y la Filosofía
+          </p>
+          <div class="imagen-recomendado">
+            <img src="/img/metaphor.jpg" alt="Imagen de metaphor" />
+          </div>
+          <p class="recomendado-introduccion recomendado-parrafos">
+            Metaphor: ReFantazio es uno de los lanzamientos más esperados en el
+            mundo de los videojuegos, especialmente para los amantes de los
+            JRPG. Este título nos invita a sumergirnos en un mundo vibrante y
+            surrealista, donde la fantasía se entrelaza con reflexiones
+            filosóficas profundas.
+            <strong>
+              Aquí exploraremos los aspectos que hacen de este juego una
+              experiencia única y cautivadora.</strong
+            >
+          </p>
+          <p class="recomendado-tematica recomendado-parrafos">
+            Desde el inicio, Metaphor: ReFantazio destaca por su narrativa
+            intrigante. Los jugadores se encuentran en un universo donde la
+            realidad y la fantasía coexisten, desafiando las percepciones
+            convencionales. La historia sigue a un grupo de personajes que deben
+            enfrentar sus propios miedos y deseos mientras navegan por un mundo
+            que refleja sus emociones más profundas. Las decisiones que tomas no
+            solo afectan el curso de la historia, sino que también exploran
+            temas de identidad, propósito y la naturaleza de la realidad.
+          </p>
+          <div class="imagen-recomendado">
+            <img src="/img/metaphor-2.jpg" alt="Imagen de metaphor" />
+          </div>
+          <p class="recomendado-mecanicas recomendado-parrafos">
+            El juego combina elementos de rol con mecánicas de combate
+            estratégicas. Los enfrentamientos son dinámicos y requieren
+            pensamiento táctico, lo que añade una capa de profundidad al sistema
+            de juego. Además, Metaphor: ReFantazio invita a la exploración, con
+            un mundo rico en detalles y secretos por descubrir. Los acertijos y
+            desafíos son parte integral de la experiencia, obligando a los
+            jugadores a interactuar con el entorno de maneras creativas.
+          </p>
+          <p class="recomendado-arte recomendado-parrafos">
+            Visualmente, el juego es un verdadero festín para los ojos. Con un
+            diseño artístico que combina lo surrealista con lo onírico, cada
+            área del mundo de Metaphor: ReFantazio está meticulosamente
+            elaborada. Los personajes están bien diseñados y tienen un estilo
+            único que refleja sus personalidades y emociones. La dirección
+            artística no solo es impresionante, sino que también refuerza la
+            narrativa, creando una atmósfera inmersiva.
+          </p>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/SjbgJaYi4NE?si=sMNpHnnpo04aKox0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <p class="recomendado-conclusion recomendado-parrafos">
+            <strong>En conclusion Metaphor: ReFantazio </strong> promete ser una
+            experiencia inolvidable para los fanáticos de los JRPG y los juegos
+            narrativos. Su combinación de historia profunda, mecánicas de juego
+            envolventes y estética impresionante lo convierte en un título a
+            seguir. A medida que los jugadores se embarquen en este viaje
+            surrealista, es probable que se enfrenten a preguntas sobre sí
+            mismos y el mundo que les rodea. ¡No te pierdas esta aventura única
+            que desafía los límites de la imaginación!
+          </p>
+          <button id="boton-agregar" class="boton-recomendado boton-agregar">
+            Agregar &#43;
+          </button>
+        </div>
+        <!-- accesos directos -->
+        <div class="accesos-container">
+          <p class="center">Navega por nuestra pagina web</p>
+          <div class="botenes-container accesos">
+            <button class="acceso-boton">
+              <a href="index.html">Inicio</a>
+            </button>
+            <button class="acceso-boton">
+              <a href="adicional.html">Ultimas novedades</a>
+            </button>
+          </div>
+          <p class="center">Navega por nuestras redes sociales</p>
+          <div class="redes-container accesos">
+            <p class="red-container center">
+              <a
+                href="https://x.com/alejand91422268?s=09"
+                target="_blank"
+                class="social"
+                >X</a
+              >
+            </p>
+            <p class="red-container center">
+              <a href="https://facebook.com/" target="_blank" class="social"
+                >facebook</a
+              >
+            </p>
+            <p class="red-container center">
+              <a href="https://instagram.com/" target="_blank" class="social"
+                >instagram</a
+              >
+            </p>
+          </div>
+        </div>
       </section>
     </main>
+    <!-- fin de seccion -->
+    <!-- script -->
     <script src="script.js"></script>
-    <footer class="text-center">
-      <p>&copy; 2024 Viajes</p>
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 GamerHub. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
