@@ -223,3 +223,55 @@ a {
   margin: 0;
   margin-bottom: 12px;
 }
+
+/* tematica content class */
+
+.recomendado-blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+  background-color: rgb(218, 241, 184);
+}
+
+.recomendado-parrafos {
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.titulo-recomendado {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Oxanium", sans-serif;
+}
+
+.imagen-recomendado {
+  width: 450px;
+}
+
+.boton-recomendado {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-agregar {
+  color: black;
+  background-color: rgba(115, 255, 0, 1);
+}
+
+.boton-agregar:hover {
+  background-color: rgb(89, 197, 0);
+}
+
+.boton-agregado {
+  color: white;
+  background-color: rgb(47, 78, 22);
+}
+
+.boton-agregado:hover {
+  background-color: rgb(45, 57, 35);
+}
