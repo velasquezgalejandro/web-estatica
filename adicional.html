@@ -3,37 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>web-static-adicional</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
-      <div class="logo">Mi Sitio</div>
+      <div class="nombre">GamerHub</div>
       <button class="toggle-button" id="toggle-button">☰</button>
       <nav id="nav-menu" class="nav-menu">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="adicional.html">Temática</a></li>
-          <li><a href="tematica.html">Adicional</a></li>
+          <li><a href="adicional.html">Ultimas novedades</a></li>
+          <li><a href="tematica.html">Recomendado del mes</a></li>
         </ul>
       </nav>
     </header>
+    <!-- inicio de seccion -->
     <main>
-      <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Contenido de inicio aquí.</p>
-      </section>
-      <section id="tematica">
-        <h2>Temática</h2>
-        <p>Contenido temático aquí.</p>
-      </section>
       <section id="adicional">
-        <h2>Adicional</h2>
-        <p>Contenido adicional aquí.</p>
+        <!-- contenido de adicional -->
+        <div class="recomendados-container">
+          <div class="recomendado">
+            <div class="info-containt">
+              <h4 class="recomendado-titulo">Metaphor: ReFantazio</h4>
+              <p class="recomendado-info">
+                Un JRPG con una narrativa profunda y surrealista que combina
+                elementos de fantasía y filosofía. Los jugadores se sumergen en
+                un mundo visualmente impresionante, donde deben resolver enigmas
+                y enfrentar decisiones que afectan el destino de los personajes.
+                La jugabilidad se centra en combates estratégicos y exploración.
+              </p>
+            </div>
+            <div class="caratula">
+              <img
+                class="imagen-juego"
+                src="/img/metaphor.jpg"
+                alt="imagen de Metaphor"
+              />
+            </div>
+          </div>
+          <div class="recomendado">
+            <div class="info-containt">
+              <h4 class="recomendado-titulo">Dragon Ball: Sparking! Zero</h4>
+              <p class="recomendado-info">
+                Un emocionante juego de lucha basado en el icónico universo de
+                Dragon Ball. Ofrece combates rápidos y fluidos, con una amplia
+                variedad de personajes y habilidades. Los jugadores pueden
+                disfrutar de modos de historia y batallas multijugador,
+                reviviendo momentos épicos de la serie con gráficos
+                impresionantes y dinámicas de combate mejoradas.
+              </p>
+            </div>
+            <div class="caratula">
+              <img
+                class="imagen-juego"
+                src="/img/sparking-zero.jpg"
+                alt="imagen de Dragon Ball: Sparking! Zero"
+              />
+            </div>
+          </div>
+          <div class="recomendado">
+            <div class="info-containt">
+              <h4 class="recomendado-titulo">
+                The Legend of Zelda: Echoes of Wisdom
+              </h4>
+              <p class="recomendado-info">
+                La última entrega de la famosa saga de aventuras, donde Link y
+                Zelda exploran un mundo vasto y lleno de secretos. Con un
+                enfoque en la resolución de acertijos y la exploración, los
+                jugadores descubrirán nuevas habilidades y enemigos mientras
+                desentrañan una historia épica que profundiza en la mitología de
+                Hyrule.
+              </p>
+            </div>
+            <div class="caratula">
+              <img
+                class="imagen-juego"
+                src="/img/zelda.jpg"
+                alt="imagen de The Legend of Zelda: Echoes of Wisdom"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- accesos directos -->
+        <div class="accesos-container">
+          <p class="center">Navega por nuestra pagina web</p>
+          <div class="botenes-container accesos">
+            <button class="acceso-boton">
+              <a href="index.html">Inicio</a>
+            </button>
+            <button class="acceso-boton">
+              <a href="tematica.html">Recomendado del mes</a>
+            </button>
+          </div>
+          <p class="center">Navega por nuestras redes sociales</p>
+          <div class="redes-container accesos">
+            <p class="red-container center">
+              <a href="https://x.com/alejand91422269 " class="social">X</a>
+            </p>
+            <p class="red-container center">
+              <a href="https://facebook.com/" class="social">facebook</a>
+            </p>
+            <p class="red-container center">
+              <a href="https://instagram.com/" class="social">instagram</a>
+            </p>
+          </div>
+        </div>
       </section>
     </main>
+    <!-- fin de seccion -->
+    <!-- script -->
     <script src="script.js"></script>
-    <footer class="text-center">
-      <p>&copy; 2024 Viajes</p>
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 GamerHub. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
