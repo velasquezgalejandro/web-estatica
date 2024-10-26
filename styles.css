@@ -190,4 +190,36 @@ a {
 /* adicional context class */
 
 .recomendados-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 8px;
+}
+
+.recomendado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(218, 241, 184);
+  border: 1px solid rgb(112, 150, 103);
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.info-containt {
+  width: 1000px;
+}
+
+.caratula {
+  width: 200px;
+}
+
+.imagen-juego {
+  width: 100%;
+}
+
+.recomendado-titulo {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 12px;
 }
