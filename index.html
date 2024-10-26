@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web-static</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <div class="logo">Mi Sitio</div>
+      <div class="nombre">GamerHub</div>
       <button class="toggle-button" id="toggle-button">☰</button>
       <nav id="nav-menu" class="nav-menu">
         <ul>
@@ -20,21 +26,57 @@
     </header>
     <main>
       <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Contenido de inicio aquí.</p>
-      </section>
-      <section id="tematica">
-        <h2>Temática</h2>
-        <p>Contenido temático aquí.</p>
-      </section>
-      <section id="adicional">
-        <h2>Adicional</h2>
-        <p>Contenido adicional aquí.</p>
+        <div class="inicio-content">
+          <div class="descripcion-content">
+            <h2 class="descripcion-nombre">GamerHub</h2>
+            <p class="descripcion">
+              En GamerHub, los amantes de los videojuegos se reúnen para
+              compartir experiencias, estrategias y noticias del mundo gamer.
+              Nuestro espacio está diseñado para fomentar la colaboración y la
+              conexión entre jugadores de todos los niveles.
+            </p>
+            <p class="descripcion">
+              Aquí encontrarás reseñas, foros de discusión, guías, y eventos
+              comunitarios. Únete a debates apasionantes, comparte tus logros y
+              descubre nuevos amigos que comparten tu pasión por los
+              videojuegos. ¡Conviértete en parte de nuestra comunidad y lleva tu
+              experiencia gamer al siguiente nivel!
+            </p>
+          </div>
+          <div class="imagen-container">
+            <img src="/img/klipartz.com.png" alt="Varios personajes" />
+          </div>
+        </div>
+        <div class="accesos-container">
+          <p class="center">Navega por nuestra pagina web</p>
+          <div class="botenes-container accesos">
+            <button class="acceso-boton">
+              <a href="adicional.html">adicional</a>
+            </button>
+            <button class="acceso-boton">
+              <a href="tematica.html">tematica</a>
+            </button>
+          </div>
+          <p class="center">Navega por nuestras redes sociales</p>
+          <div class="redes-container accesos">
+            <p class="red-container center">
+              <a href="https://x.com/alejand91422268 " class="social">X</a>
+            </p>
+            <p class="red-container center">
+              <a href="https://facebook.com/" class="social">facebook</a>
+            </p>
+            <p class="red-container center">
+              <a href="https://instagram.com/" class="social">instagram</a>
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
-    <footer class="text-center">
-      <p>&copy; 2024 Viajes</p>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 GamerHub. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
